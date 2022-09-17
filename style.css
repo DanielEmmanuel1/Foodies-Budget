@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0 1.5px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+header {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 242, 242);
+    opacity: 86%;
+    padding-top: 15px;
+}
+
+nav li {
+    color: rgb(39, 182, 11);
+    display: inline-block;
+    list-style: none;
+    padding: 15px 14px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.first {
+    padding-top: 70px;
+}
+#food {
+    color: rgb(24, 119, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.para {
+    text-align: left;
+    width: 450px;
+}
+
+#boot {
+    background-image: linear-gradient(to right, green, rgb(247, 95, 8));
+}
+
+
+button {
+    background-color: rgb(23, 156, 5);
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-weight: 600;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(18, 92, 0);
+}
+
+#image {
+    width: 450px;
+    height: 400px;
+    float: left;
+    padding-right: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 1.5em;
+    height: 555px;
+}
+
+#food1 {
+    padding-top: 30px;
+    width: 400px;
+    height: 350px;
+    margin-top: 200px;
+    padding-left: 50px;
+}
+
+#food2 {
+    padding-top: 30px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 200px;
+}
+
+
+
+.colour {
+    color: rgb(23, 170, 3);
+    font-family: 'Italianno', cursive;
+    font-size: 75px;
+    font-weight: 300;
+}
+
+
+p{
+    line-height: 1.5;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: large;
+}
+
+.paragraph {
+    text-align: left;
+    margin-right: 50px;
+}
+
+.paragraphy {
+    text-align: left;
+}
+
+.image {
+    width: 500px;
+    height: 400px;
+}
+
+.photo1 {
+    text-align: right;
+}
+
+.photo2 {
+    text-align: right;
+}
+
+.miss {
+    width: 700px;
+    height: 450px;
+    float: right;
+}
+.mis {
+    text-align: left;
+}
+
+#head {
+    text-align: center;
+    color: rgb(23, 170, 3);
+}
+
+footer {
+    background-color: rgb(243, 242, 242);
+}
+
+.dog-prices {
+    margin-left: 8%;
+    padding-top: 1%;
+}
+
+.butt {
+    background-image: linear-gradient(to right, green, rgb(247, 95, 8));
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-weight: 600;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.4s ease 0s;
+}
+
+.butt :hover {
+    color: black;
+}
+
+.packages {
+    text-align: center;
+    font-size: bolder;
+    color: rgb(50, 165, 22);
+}
+
+.head {
+    color: rgb(50, 165, 22);
+}
+
+#testimonials {
+    text-align: center;
+    background-image: linear-gradient(to right, green, rgb(247, 95, 8));
+    color: white;
+}
+
+.prev {
+        background-color: rgb(101, 233, 118);
+        transition: all 0.4s ease 0s;
+        height: 100px;
+        width: 150px;
+        margin-top: 130px;
+}
+
+.prev:hover {
+    background-color: rgb(79, 216, 98);
+}
+
+.next {
+    background-color: rgb(243, 150, 96);
+    transition: all 0.4s ease 0s;
+    height: 100px;
+    width: 150px;
+    margin-top: 130px;
+}
+
+.next:hover {
+background-color: rgb(241, 94, 35);
+}
+
+.testimonies {
+    text-align: center;
+    color: rgb(79, 216, 98);
+    margin-top: 60px;
+}
+
+.container-contain {
+    text-align: center;
+    width: 100%;
+}
+
+.foot {
+    display: flex;
+    color: white;
+}
+
+.wolf {
+    text-align: left;
+    margin-top: 3px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(39, 182, 11);
+}
+
+a:link:hover {
+    background-color: rgb(18, 92, 0);
+}
+
+footer {
+    background-color: rgb(27, 24, 24);
+}
+
+.pol {
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        width: 100%;
+        height: 55px;
+    }
+}
+
